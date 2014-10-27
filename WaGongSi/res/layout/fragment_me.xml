@@ -2,8 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#cbc"
+    android:background="#EEEEEE"
     android:orientation="vertical" >
-    
+
+    <ListView
+        android:id="@+id/meList"
+        android:divider="@null"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dip" />
 
 </LinearLayout>
