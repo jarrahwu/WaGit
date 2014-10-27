@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">哇公司</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="abuse">举报</string>
+    <string name="wa">哇</string>
+    <string name="home">首页</string>
+    <string name="create_company">立即开公司</string>
+    <string name="me">我</string>
+
+</resources>
