@@ -16,7 +16,6 @@ import com.wagongsi.android.view.CpItemView;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 
 public class FragmentNew extends TabFragment implements Home{
@@ -64,16 +63,9 @@ public class FragmentNew extends TabFragment implements Home{
 			}
 
 			@Override
-			public void updateItemUI(int position, final CompanyInfoBean data,
+			public void updateItemUI(int position, CompanyInfoBean data,
 					CpItemView itemView) {
 				itemView.setData(data);
-				itemView.setOnClickListener(new OnClickListener() {
-					
-					@Override
-					public void onClick(View v) {
-						ActivityDetail.start(getActivity(), data);
-					}
-				});
 			}
 
 			@Override
